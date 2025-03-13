@@ -32,6 +32,7 @@ import org.bukkit.entity.Projectile;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
+
 import studio.magemonkey.codex.compat.VersionManager;
 import studio.magemonkey.codex.util.Reflex;
 

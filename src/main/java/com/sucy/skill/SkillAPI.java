@@ -46,6 +46,7 @@ public class SkillAPI extends JavaPlugin {
     }
 
     @Deprecated
+    @SuppressWarnings("removal")
     public SkillAPI(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) throws
             IOException {
         super(loader, description, dataFolder, file);
@@ -84,6 +85,7 @@ public class SkillAPI extends JavaPlugin {
      * @deprecated use {@link Fabled#getSettings()}
      */
     @Deprecated(forRemoval = true)
+    @SuppressWarnings("removal")
     public static Settings getSettings() {
         return new Settings();
     }
@@ -117,6 +119,7 @@ public class SkillAPI extends JavaPlugin {
      * @deprecated use {@link Fabled#getAttributesManager()}
      */
     @Deprecated(forRemoval = true)
+    @SuppressWarnings("removal")
     public static AttributeManager getAttributeManager() {
         return new AttributeManager(Fabled.getAttributesManager());
     }
@@ -263,6 +266,7 @@ public class SkillAPI extends JavaPlugin {
      * @deprecated use {@link Fabled#getData(OfflinePlayer)}
      */
     @Deprecated(forRemoval = true)
+    @SuppressWarnings("removal")
     public static PlayerData getPlayerData(OfflinePlayer player) {
         return new PlayerData(Fabled.getData(player));
     }
@@ -277,6 +281,7 @@ public class SkillAPI extends JavaPlugin {
      * @deprecated use {@link Fabled#getPlayerAccounts(OfflinePlayer)}
      */
     @Deprecated(forRemoval = true)
+    @SuppressWarnings("removal")
     public static PlayerAccounts loadPlayerData(OfflinePlayer player) {
         return new PlayerAccounts(Fabled.getPlayerAccounts(player));
     }
@@ -366,6 +371,7 @@ public class SkillAPI extends JavaPlugin {
      * @deprecated use {@link Fabled#getPlayerAccounts(OfflinePlayer)}
      */
     @Deprecated(forRemoval = true)
+    @SuppressWarnings("removal")
     public static PlayerAccounts getPlayerAccountData(OfflinePlayer player) {
         return new PlayerAccounts(Fabled.getPlayerAccounts(player));
     }
@@ -378,6 +384,7 @@ public class SkillAPI extends JavaPlugin {
      * @deprecated use {@link PlayerLoader#getAllPlayerAccounts()}
      */
     @Deprecated(forRemoval = true)
+    @SuppressWarnings("removal")
     public static Map<UUID, PlayerAccounts> getPlayerAccountData() {
         return PlayerLoader.getAllPlayerAccounts().entrySet()
                 .stream()

@@ -7,7 +7,6 @@ import studio.magemonkey.fabled.api.player.PlayerClass;
 import studio.magemonkey.fabled.api.player.PlayerData;
 
 @RequiredArgsConstructor
-@Deprecated(forRemoval = true)
 public class PlayerSkill {
     private final studio.magemonkey.fabled.api.player.PlayerSkill _skill;
 

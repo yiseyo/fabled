@@ -91,7 +91,7 @@ public class ParticleImage implements IParticleEffect {
 
                 Particle particle;
                 try {
-                    particle = Particle.DUST;
+                    particle = Particle.ASH;
                 } catch (NoSuchFieldError e) {
                     particle = Particle.valueOf("REDSTONE");
                 }

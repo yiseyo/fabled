@@ -36,7 +36,6 @@ import org.bukkit.event.HandlerList;
  * Event called when a player upgrades a skill
  * @deprecated use {@link studio.magemonkey.fabled.api.event.PlayerSkillUpgradeEvent} instead
  */
-@Deprecated(forRemoval = true)
 public class PlayerSkillUpgradeEvent extends Event implements Cancellable {
 
     private static final HandlerList handlers  = new HandlerList();

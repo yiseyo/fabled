@@ -28,7 +28,6 @@ import java.util.stream.Collectors;
  * @deprecated Use {@link studio.magemonkey.fabled.api.player.PlayerData} instead
  */
 @RequiredArgsConstructor
-@Deprecated(forRemoval = true)
 public class PlayerData {
     private final studio.magemonkey.fabled.api.player.PlayerData _data;
 

@@ -11,7 +11,6 @@ import studio.magemonkey.fabled.api.event.PlayerExperienceLostEvent;
  *
  * @deprecated use {@link studio.magemonkey.fabled.api.player.PlayerClass} instead
  */
-@Deprecated(forRemoval = true)
 @RequiredArgsConstructor
 public class PlayerClass {
     private final studio.magemonkey.fabled.api.player.PlayerClass _data;

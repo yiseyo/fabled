@@ -25,7 +25,6 @@ import java.util.Map;
  * @deprecated use {@link studio.magemonkey.fabled.api.classes.FabledClass} instead
  */
 @AllArgsConstructor
-@Deprecated(forRemoval = true)
 public class RPGClass {
     private final FabledClass root;
 

@@ -16,7 +16,6 @@ import java.util.List;
  * the class to extend when creating your own custom skills.
  * @deprecated use {@link studio.magemonkey.fabled.api.skills.Skill} instead
  */
-@Deprecated(forRemoval = true)
 @RequiredArgsConstructor
 public class Skill {
     @Getter
